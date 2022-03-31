@@ -4,9 +4,7 @@ const fs = require("fs");
 const http = require("http");
 
 const SerpApi = require("google-search-results-nodejs");
-const search = new SerpApi.GoogleSearch(
-  "df5ea7eb88235ace765f2e26b937b5bb7cd5434abba40c2b946924bb10d16194"
-);
+const search = new SerpApi.GoogleSearch(process.env.API_KEY);
 
 const params = {
   q: "Abstract Landscapes",
