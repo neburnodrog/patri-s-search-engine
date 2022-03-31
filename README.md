@@ -3,8 +3,8 @@ https://serpapi.com/playground?q=landscapes+abstract&location=Austin%2C+Texas%2C
 
 # Instructions
 
-1. Register and make private key
-2. clone repo
+1. Register and make private key (https://serpapi.com/)
+2. Fork and clone this repo
 3. run the following in the CLI:
 
    ```$ npx npm@7 install```
